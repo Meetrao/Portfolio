@@ -1,0 +1,101 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.logo {
+    font-weight: bold;
+}
+
+.text{
+    font-size: 15px;
+    font-weight: 600;
+    color: grey;
+}
+
+nav a {
+    margin-left: 20px;
+    text-decoration:none;
+    color: black;
+}
+
+.chat-link {
+    color: #007AFF;
+}
+
+.intro {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 75px;
+    font-weight: normal;
+    margin-bottom: 40px;
+    line-height: 1.2;
+}
+
+.section-title {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.case-studies {
+    display: flex;
+    gap: 20px;
+}
+
+.case-study {
+    flex: 1;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.case-study img {
+    width: 100%;
+    height: auto;
+}
+
+.case-study-info {
+    padding: 20px;
+    position: relative;
+}
+
+.case-study-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.case-study-description {
+    color: #666;
+    font-size: 14px;
+}
+
+.arrow {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    font-size: 24px;
+}
